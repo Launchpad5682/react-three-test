@@ -1,6 +1,7 @@
 ### Dependencies: 
 - @react-three/drei
 - @react-three/fibre
+- react-loader--spinner
 
 ### Build process for GLTF2JSX: 
 - Download any GLTF in modelling directory which will be kept on the backend servers.
@@ -15,3 +16,6 @@
 ### How to use ? 
 - Drag the model and it'll around the axis.
 - Zoom in and out of the model using scroll on mouse or double finger gesture on track pad.
+
+### Deployment in Netlify
+* Build step ```CI==false npm run build```
